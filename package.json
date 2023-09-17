@@ -1,0 +1,23 @@
+{
+  "name": "projectts",
+  "version": "1.0.0",
+  "description": "Ts project",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "serve": "webpack serve"
+  },
+  "author": "Adity Barua",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.5.17",
+    "lite-server": "^2.6.1",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
